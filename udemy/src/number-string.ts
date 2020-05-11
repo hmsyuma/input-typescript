@@ -12,5 +12,6 @@ let age = 0x2b;
 console.log(age);
 
 // string
+// 変数にマウスをホバーさせると型を推測してくれる
 let name: string = 'shimo';
 console.log(name);
