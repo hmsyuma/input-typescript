@@ -4,14 +4,14 @@
     // "incremental": true,                   /* Enable incremental compilation */
     "target": "ES6" /*  指定した場合はコンパイルされた後のJSのコードが変わる、es5→es6に変換する。TS側でのバージョン */,
     "module": "commonjs" /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */,
-    // "lib": [
-    //   "ES6",
-    //   "DOM",
-    //   "DOM.Iterable",
-    //   "ScriptHost"
-    // ] /* JSのデフォルト関数の型定義を指定するファイルのパスを指定している、ない場合はtargetのバージョンをみにいき自動指定する */,
-    // "allowJs": true,                       /* Allow javascript files to be compiled. */
-    // "checkJs": true,                       /* jsエラー回避  */
+    "lib": [
+      "ES6",
+      "DOM",
+      "DOM.Iterable",
+      "ScriptHost"
+    ] /* JSのデフォルト関数の型定義を指定するファイルのパスを指定している、ない場合はtargetのバージョンをみにいき自動指定する */,
+    "allowJs": true /* Allow javascript files to be compiled. */,
+    "checkJs": true /* jsエラー回避  */,
     // "jsx": "preserve",                     /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
     // "declaration": true,                   /* 型定義ファイルを作成することができる '.d.ts' file.コンパイルした後のJSの型定義ファイルができる。 */
     // "declarationMap": true,                /* Generates a sourcemap for each corresponding '.d.ts' file.　 */
@@ -29,7 +29,7 @@
     // "isolatedModules": true,               /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */
 
     /* Strict Type-Checking Options */
-    "strict": true /* 下の6つが全部trueになる。コードのチェック機能をどこまできつくするのか */,
+    "strict": true /* 下の6つが全部trueになる。コードのチェック機能をどこまできつくするのか */
     // "noImplicitAny": true,                 /* 暗黙的なanyでエラーが発生する。変数の場合は例外になる。明示的なanyはOK */
     // "strictNullChecks": true /*  */,
     // "strictFunctionTypes": true,           /* Enable strict checking of function types. */
@@ -39,8 +39,8 @@
     // "alwaysStrict": true,                  /* Parse in strict mode and emit "use strict" for each source file. */
 
     /* Additional Checks */
-    "noUnusedLocals": true /* Report errors on unused locals. */,
-    "noUnusedParameters": true /* Report errors on unused parameters. */,
+    // "noUnusedLocals": true /* Report errors on unused locals. */,
+    // "noUnusedParameters": true /* Report errors on unused parameters. */
     // "noImplicitReturns": true /* returnを. */,
     // "noFallthroughCasesInSwitch": true /* Report errors for fallthrough cases in switch statement. */,
 
@@ -52,7 +52,7 @@
     // "typeRoots": [],                       /* List of folders to include type definitions from. */
     // "types": [],                           /* Type declaration files to be included in compilation. */
     // "allowSyntheticDefaultImports": true,  /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
-    "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
+    // "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
     // "preserveSymlinks": true,              /* Do not resolve the real path of symlinks. */
     // "allowUmdGlobalAccess": true,          /* Allow accessing UMD globals from modules. */
 
@@ -67,7 +67,7 @@
     // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
 
     /* Advanced Options */
-    "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
+    // "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
   }
   // // includeしたものからexcludewを引くという作業
   // "include": ["index.ts"],
