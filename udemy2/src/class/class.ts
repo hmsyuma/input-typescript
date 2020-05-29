@@ -18,7 +18,7 @@ const quills = new Human('shimo');
 
 // humanの中で定義された物と同じ物を使用する必要がある。
 const anothorQuills = {
-  name: 'anotherQuill',
+  name: '32',
   greeting: quills.greeting,
 };
 
